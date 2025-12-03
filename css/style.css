@@ -10,14 +10,14 @@
   --body-color: #6a6a6a;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&family=Crimson+Text:wght@400;600;700&display=swap");
 body {
   overflow-x: hidden;
   position: relative;
 }
 
 body {
-  font-family: "Merriweather", serif;
+  font-family: "Crimson Text", serif;
   font-weight: 400;
   line-height: 28px;
   color: var(--body-color);
@@ -42,9 +42,10 @@ a.more {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .custom-navbar {
@@ -53,11 +54,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 20px;
 }
 .custom-navbar .navbar-brand {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 32px;
   font-weight: 800;
-  letter-spacing: -0.02em;
-  text-transform: none;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 .custom-navbar .navbar-brand > span {
   opacity: 0.4;
@@ -79,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .custom-navbar .custom-navbar-nav li a {
   font-weight: 500;
-  color: var(--light-color) !important;
+  color: white !important;
   opacity: 0.5;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
@@ -268,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: var(--dark-color);
   font-weight: 700;
   letter-spacing: -0.01em;
@@ -641,7 +642,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  background-color: var(--gray-light-color);
+  background-color: var(--tertiary-color);
 }
 .testimonial-slider-wrap .tns-nav button:hover:before,
 .testimonial-slider-wrap .tns-nav button.tns-nav-active:before {
@@ -723,12 +724,12 @@ body {
 .footer-section .subscription-form h3 {
   font-size: 18px;
   font-weight: 500;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 .footer-section .subscription-form .form-control {
   height: 50px;
   border-radius: 10px;
-  font-family: "Merriweather", serif;
+  font-family: "Crimson Text", serif;
 }
 .footer-section .subscription-form .form-control:active,
 .footer-section .subscription-form .form-control:focus {
@@ -804,6 +805,12 @@ body {
 .footer-section .border-top.copyright {
   font-size: 14px !important;
 }
+.copyright p a {
+  text-decoration: none;
+}
+.copyright p a:hover {
+  text-decoration: underline;
+}
 
 .untree_co-section {
   padding: 7rem 0;
@@ -812,7 +819,7 @@ body {
 .form-control {
   height: 50px;
   border-radius: 10px;
-  font-family: "Merriweather", serif;
+  font-family: "Crimson Text", serif;
 }
 .form-control:active,
 .form-control:focus {
