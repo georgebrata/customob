@@ -1,6 +1,48 @@
-<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M31.6591 35.3637C33.6046 35.3637 35.1818 33.7865 35.1818 31.841C35.1818 29.8954 33.6046 28.3182 31.6591 28.3182C29.7135 28.3182 28.1364 29.8954 28.1364 31.841C28.1364 33.7865 29.7135 35.3637 31.6591 35.3637Z" stroke="black" stroke-width="2.81818" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M13.3409 35.3637C15.2865 35.3637 16.8636 33.7865 16.8636 31.841C16.8636 29.8954 15.2865 28.3182 13.3409 28.3182C11.3954 28.3182 9.81818 29.8954 9.81818 31.841C9.81818 33.7865 11.3954 35.3637 13.3409 35.3637Z" stroke="black" stroke-width="2.81818" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28.1364 17.0454H33.7727L38 21.2727V28.3181H28.1364V17.0454Z" stroke="black" stroke-width="2.81818" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M28.1364 10H7V28.3182H28.1364V10Z" stroke="black" stroke-width="2.81818" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 48 48" id="b" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<style>.c{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}</style>
+
+</defs>
+
+<path class="c" d="m36.9282,19.9637c.1061-.7998.163-1.5923.163-2.3725,0-7.23-5.8611-13.0912-13.0912-13.0912s-13.0912,5.8611-13.0912,13.0912c0,10.2509,10.0009,22.612,12.6111,25.6323.3191.3688.891.3688,1.2101,0,1.4477-1.7032,5.2356-6.4299,8.2399-12.0741"/>
+
+<g>
+
+<path class="c" d="m22.4999,26.9973c0,1.1047-.8955,2.0002-2.0002,2.0002s-2.0002-.8955-2.0002-2.0002.8955-2.0002,2.0002-2.0002,2.0002.8955,2.0002,2.0002Z"/>
+
+<path class="c" d="m34.501,26.9973c0,1.1047-.8955,2.0002-2.0002,2.0002s-2.0002-.8955-2.0002-2.0002.8955-2.0002,2.0002-2.0002,2.0002.8955,2.0002,2.0002Z"/>
+
+<g>
+
+<path class="c" d="m22.4999,26.9973h8.0007"/>
+
+<path class="c" d="m18.4996,26.9973h-2.0002v-7.0006"/>
+
+<path class="c" d="m27.5004,17.9965v-2.0002h-14.0012"/>
+
+<path class="c" d="m34.501,26.9973h2.0002v-5.0004"/>
+
+<path class="c" d="m36.5012,21.9968l-5.0004-5.0004"/>
+
+<path class="c" d="m31.5007,16.9964h-4.0004v10.0009"/>
+
+<path class="c" d="m16.4994,17.9965h-2.0002"/>
+
+<path class="c" d="m16.4994,19.9967h-1.0001"/>
+
+<path class="c" d="m29.5005,18.9966h4.0004"/>
+
+<path class="c" d="m29.5005,22.4969h7.0006"/>
+
+<path class="c" d="m29.5005,18.9966v3.5003"/>
+
+</g>
+
+</g>
+
 </svg>
