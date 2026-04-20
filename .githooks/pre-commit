@@ -1,0 +1,17 @@
+#!/bin/sh
+# Sets every <lastmod> in sitemap.xml to today's date (YYYY-MM-DD) and stages the file.
+# One-time setup for this clone: git config core.hooksPath .githooks
+# Skip: git commit --no-verify
+
+set -e
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+sitemap="sitemap.xml"
+[ -f "$sitemap" ] || exit 0
+
+today="$(date +%Y-%m-%d)"
+perl -pi -e "s/<lastmod>[^<]*<\/lastmod>/<lastmod>${today}<\/lastmod>/g" "$sitemap"
+
+git add "$sitemap"

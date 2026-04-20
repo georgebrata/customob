@@ -5,12 +5,14 @@
     <loc>https://customob.ro/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <lastmod>2026-04-21</lastmod>
   </url>
 
   <url>
     <loc>https://customob.ro/oferta/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <lastmod>2026-04-21</lastmod>
   </url>
 
 </urlset>
