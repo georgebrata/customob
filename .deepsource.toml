@@ -1,0 +1,42 @@
+# DeepSource configuration for customob.ro
+# https://docs.deepsource.com/docs/platform/getting-started/configure-analyzers
+version = 1
+
+exclude_patterns = [
+  # Static assets and third-party bundles (not maintained application code)
+  "assets/**",
+  "images/**",
+  "**/*.min.js",
+  "**/*.min.css",
+  "css/bootstrap.min.css",
+  "css/tiny-slider.css",
+  # Future-proofing if dependencies are added locally
+  "node_modules/**",
+]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  environment = ["browser"]
+  module_system = "es-modules"
+  globals = ["tns"]
+  cyclomatic_complexity_threshold = "high"
+  skip_doc_coverage = [
+    "function-declaration",
+    "function-expression",
+    "arrow-function-expression",
+    "method-definition",
+  ]
+
+[[analyzers]]
+name = "shell"
+enabled = true
+
+  [analyzers.meta]
+  dialect = "sh"
+
+[[analyzers]]
+name = "secrets"
+enabled = true
